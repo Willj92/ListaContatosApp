@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "0.12"
+install:
+    - npm install
+deploy:
+  provider: heroku
+  api_key:
+    secure: 38d930e9-8c92-4ed7-9903-a8cc6a0b3074
+  app: projetolistacontato
+  on:
+    repo: Willj92/ListaContatosApp
