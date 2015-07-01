@@ -33,7 +33,7 @@ describe('Math', function() {
         it('deve retornar -2 quando o valor passado for -1 e 2', function() {
             (math.multiplicar(-1, 2)).should.be.equal(-2);
         });
-        it('deve retornar 0 quando o valor passado for 0 e 0', function() {
+        it('deve retornar 0 quando o valor passado ser 0 e 0', function() {
             (math.multiplicar(0, 0)).should.be.equal(0);
         });
     });
