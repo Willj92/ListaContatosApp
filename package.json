@@ -12,6 +12,7 @@
     "coveralls": "^2.11.2",
     "express": "^4.13.0",
     "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
     "mongojs": "^1.0.2",
     "should": "^7.0.1"
   },
