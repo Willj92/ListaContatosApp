@@ -1,31 +1,31 @@
 {
   "name": "listacontatosapp",
   "version": "1.0.0",
-  "description": "projetopi",
+  "description": "projeto mean",
   "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
   "dependencies": {
     "body-parser": "^1.13.1",
     "bootstrap": "^3.3.5",
     "coveralls": "^2.11.2",
     "express": "^4.13.0",
     "istanbul": "^0.3.17",
-    "mongojs": "^1.0.2"
+    "mongojs": "^1.0.2",
+    "should": "^7.0.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js",
-    "test": "mocha test/ListaContatosApp.js"
+    "test": "mocha test/ListaContatosApp.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Willj92/ListaContatosApp.git"
   },
-  "keywords": [
-    "projeto",
-    "pi"
-  ],
   "author": "Will",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Willj92/ListaContatosApp/issues"
   },
