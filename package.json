@@ -6,7 +6,9 @@
   "dependencies": {
     "body-parser": "^1.13.1",
     "bootstrap": "^3.3.5",
+    "coveralls": "^2.11.2",
     "express": "^4.13.0",
+    "istanbul": "^0.3.17",
     "mongojs": "^1.0.2"
   },
   "devDependencies": {},

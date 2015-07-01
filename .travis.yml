@@ -10,3 +10,7 @@ deploy:
   app: projetolistacontato
   on:
     repo: Willj92/ListaContatosApp
+    NODE_ENV=test
+	istanbul cover ./node_modules/mocha/bin/_mocha app/tests/test.js
+	cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+	rm -rf ./coverage
