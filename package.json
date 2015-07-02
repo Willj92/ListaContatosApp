@@ -4,7 +4,7 @@
   "description": "projeto mean",
   "main": "server.js",
   "directories": {
-    "test": "test"
+    "test": "mocha test/ListaContatosApp.js"
   },
   "dependencies": {
     "body-parser": "^1.13.1",
