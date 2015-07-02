@@ -5,7 +5,7 @@ install:
     - npm install
 after_script:
     - NODE_ENV=test
-    - istanbul cover ./node_modules/mocha/bin/_mocha test/projetolistacontato.js
+    - istanbul cover ./node_modules/mocha/bin/_mocha test/ListaContatosApp.js
     - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
     - rm -rf ./coverage
 deploy:
