@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var mongojs = require('mongojs');
-var db = mongojs('listacontato', ['listacontato']);
+var db = mongojs('mongodb://admin:admin@ds047682.mongolab.com:47682/listacontato', ['listacontato']);
 var bodyParser = require('body-parser');
 
 app.use(express.static(__dirname + "/public"))
