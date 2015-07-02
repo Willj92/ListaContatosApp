@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "projeto mean",
   "main": "server.js",
-  "directories": {
-    "test": "mocha test/ListaContatosApp.js"
-  },
   "dependencies": {
     "body-parser": "^1.13.1",
     "bootstrap": "^3.3.5",
