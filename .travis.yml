@@ -4,7 +4,6 @@ node_js:
 install:
     - npm install
 after_script:
-    -chmod 0777 ./node_modules/.bin/mocha
     - NODE_ENV=test
     - istanbul cover ./node_modules/mocha/bin/_mocha test/projetolistacontato.js
     - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
